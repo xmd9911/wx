@@ -1,0 +1,9 @@
+<!--next.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <button bindtap='targetremove' > 返回首页 </button>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+</view>

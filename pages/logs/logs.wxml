@@ -2,6 +2,7 @@
 <view class="container log-list">
 <button bindtap='targetremove'> 前往分页 </button>
   <block wx:for="{{logs}}" wx:key="key" wx:for-item="log">
-    <text class="log-item">{{index + 1}}. {{log}}</text>
+    <!-- <text class="log-item">{{index + 1}}. {{log}}</text> -->
+    <input class="log-word">1</input>
   </block>
 </view>

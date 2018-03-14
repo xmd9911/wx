@@ -3,9 +3,10 @@
   flex-direction: column;
   padding: 40rpx;
 }
-.log-item {
-  margin: 10rpx;
+.avata{
+  width:80rpx;
+  height:80rpx;
 }
-.log-word {
-
+.info{
+  margin-bottom: 10rpx;
 }

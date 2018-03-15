@@ -10,6 +10,7 @@ App({
     defaultCity: '',
     defaultCounty: '',
     weatherData: '',
+    youdaoData: '',
     air: '',
     day: '',
     g_isPlayingMusic: false,

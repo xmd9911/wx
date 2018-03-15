@@ -9,7 +9,6 @@
     "pages/movies/more-movie/more-movie",
     "pages/map/map",
     "pages/logs/logs",
-    "pages/more/more",
     "pages/dic/dic"
   ],
   "window": {
@@ -37,10 +36,7 @@
         "pagePath": "pages/news/news",
         "text": "新闻"
       },
-      {
-        "pagePath": "pages/more/more",
-        "text": "更多"
-      },
+      
       {
         "pagePath": "pages/dic/dic",
         "text": "字典"

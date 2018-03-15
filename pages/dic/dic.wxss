@@ -1,1 +1,8 @@
 /* pages/dic/.wxss */
+.dicInput {
+  width: 97.5vw;
+  height: 10vh;
+  border: solid 1px black;
+  padding-left: 2vw;  
+  border-radius:10px;
+}

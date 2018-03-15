@@ -1,3 +1,17 @@
 <view class='dicTab'>
-  
+  <input class='dicInput' type='text' placeholder='请输入需要查询的内容' bindinput='getUserInput'></input>
+  <button bindtap='findIt'>找到它</button>
+</view>
+<view class='dicExplain container'>
+  <block wx:for="{{dicData}}" wx:key="key">
+    <view class="dicText">
+        <text class="dicForm">{{item.name!=false?item.name:''}}</text>
+    </view>
+  </block>
+  <block wx:for="{{dicWordData}}" wx:key="key">
+          <view class="news-stamp">
+            <text>{{item.pos}}</text>
+            <text>{{item.date}}</text>
+          </view>
+  </block>
 </view>

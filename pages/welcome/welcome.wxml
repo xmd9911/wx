@@ -1,4 +1,0 @@
-<view class='wrap'>
-  <image class="welcomeImg" src="../../images/welcome.png" bindtap='clickLogo'/>
-</view>
-

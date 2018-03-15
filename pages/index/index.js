@@ -214,7 +214,7 @@ Page({
   // 用户点击右上角分享
   onShareAppMessage: function () {
     return {
-      title: 'e 生活',
+      title: '二喵话题',
       desc: '分享个小程序，希望你喜欢☺️~',
       success: function (res) {
         // 转发成功

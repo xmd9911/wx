@@ -15,6 +15,7 @@ App({
     g_isPlayingMusic: false,
     g_currentMusicPostId: null,
     doubanBase: "https://api.douban.com",
+    youdaoBase: "http://dict.youdao.com",
     heWeatherBase: "https://free-api.heweather.com",
     juhetoutiaoBase: "https://v.juhe.cn/toutiao/index",
     tencentMapKey: "4HYBZ-EB23D-SLC42-HQ5R3-LP3LQ-OZFU5",
